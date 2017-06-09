@@ -6,7 +6,9 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import {AppRoutingModule, routableComponents} from './app-routing/app-routing.module';
+import { AppRoutingModule, routableComponents } from './app-routing/app-routing.module';
+import { MaterializeModule } from 'angular2-materialize';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import {AppRoutingModule, routableComponents} from './app-routing/app-routing.mo
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterializeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
