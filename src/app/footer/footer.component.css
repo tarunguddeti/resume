@@ -8,3 +8,7 @@
     flex: 1 0 auto;
   }
         
+    img {
+        width:32px;
+        height:32px;
+    }
