@@ -8,11 +8,13 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AppRoutingModule, routableComponents } from './app-routing/app-routing.module';
 import { MaterializeModule } from 'angular2-materialize';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routableComponents
+    routableComponents,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
