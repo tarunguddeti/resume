@@ -8,3 +8,19 @@
     flex: 1 0 auto;
   }
         
+.stack{
+width: 50px;
+margin: 0 auto;
+height: 50px;
+
+}
+
+.tab{
+  width:200px !important;
+}
+
+.tabs {
+  width: 800px !important;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
